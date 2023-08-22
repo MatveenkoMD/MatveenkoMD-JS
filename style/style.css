@@ -1,0 +1,12 @@
+.body {
+    background-color: #F0C1A7;;
+}
+
+.page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1280;
+    min-width: 320px;
+    top: 16px;
+    left: 16px;
+}
