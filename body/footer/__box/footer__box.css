@@ -1,0 +1,9 @@
+.footer__box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 990px;
+    height: 88px;
+    border-radius: 30px;
+    background: rgba(255, 255, 255, 0.60);
+}

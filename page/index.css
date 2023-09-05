@@ -1,10 +1,15 @@
 @import url("../style/style.css");
 
 @import url("../body/header/header.css");
+@import url("../body/header/__box/header__box.css");
 @import url("../body/header/__logo/header__logo.css");
 @import url("../body/header/__button/header__button.css");
 
-@import url("../body/main/__box/__box.css");
-@import url("../body/main/__box/text/text.css");
-@import url("../body/main/__box/img/__img.css");
+@import url("../body/box/box.css");
+@import url("../body/box/__img/box__img.css");
+@import url("../body/box/__text/box__text.css");
 
+@import url("../body/footer/footer.css");
+@import url("../body/footer/__box/footer__box.css");
+@import url("../body/footer/__img/footer__img.css");
+@import url("../body/footer/__copyright/footer__copyright.css");

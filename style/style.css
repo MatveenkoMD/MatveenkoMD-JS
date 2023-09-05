@@ -4,9 +4,13 @@
 
 .page {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 360px);
+    row-gap: 60px;
+    column-gap: 60px;
     max-width: 1280;
     min-width: 320px;
+    padding-top: 60px;
+    padding-left: 80px;
     top: 16px;
     left: 16px;
 }

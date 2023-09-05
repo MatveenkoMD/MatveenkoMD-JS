@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title> Запись </title>
+</head>
+<body>
+    <div class="form__wrap">
+        <div class="form__title">Свяжитесь с нами</div>
+
+        <form action="php/order.php" class="form form-order" method="POST">
+          <div class="form__list">
+            <fieldset class="form__item">
+              <!-- <label for="" class="form__label">Введите имя</label> -->
+              <input type="text" name="username" placeholder="Введите имя*" required minlength="2" maxlength="32" class="form__inp">
+            </fieldset>
+            <fieldset class="form__item">
+              <!-- <label for="" class="form__label">Введите телефон</label> -->
+              <input type="tel" name="userphone" placeholder="Введите телефон*" required pattern="^\+7[1-9]{10}$" class="form__inp">
+            </fieldset><fieldset class="form__item">
+              <button class="form__btn">отправить</button>
+            </fieldset>
+          </div>
+        </form>
+      </div>
+</body>
+</html>

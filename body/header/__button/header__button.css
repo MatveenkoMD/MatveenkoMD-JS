@@ -1,0 +1,6 @@
+.header__button {
+    width: 88px;
+    height: 88px;
+    background-image: url('/img/__header/__button.svg');
+    background-size: cover;
+}
